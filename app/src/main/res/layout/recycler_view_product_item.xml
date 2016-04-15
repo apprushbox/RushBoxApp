@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:id="@+id/lyProduct"
+    android:paddingBottom="10dp"
+    android:paddingLeft="2dp"
+    android:paddingTop="2dp"
+    android:paddingRight="2dp">
+
+    <TextView
+        android:id="@+id/tvProductName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product Name"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Description"
+        android:id="@+id/tvDescription"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="10dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvPrice"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:text="$1114.92"
+            android:layout_alignParentLeft="true"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="12dp"
+            android:gravity="center_vertical" />
+
+        <ImageView
+            android:id="@+id/imgPlus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_add"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/tvPrice"/>
+
+        <TextView
+            android:id="@+id/tvShipping"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/ic_local_shipping"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/imgPlus"
+            android:adjustViewBounds="true"
+            android:drawableLeft="@drawable/ic_local_shipping"
+            android:text="1234.56"
+            android:gravity="center_vertical" />
+
+        <ImageView
+            android:id="@+id/imgEquals"
+            android:layout_width="20dp"
+            android:layout_height="24dp"
+            android:src="@mipmap/ic_equals"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/tvShipping"
+            android:adjustViewBounds="true" />
+
+        <TextView
+            android:id="@+id/tvPriceTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="$14.92"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:textColor="@color/colorAccent"
+            android:layout_toRightOf="@+id/imgEquals"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical" />
+
+        <TextView
+            android:id="@+id/tvBtnBuy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_button_blue"
+            android:text="@string/button_buy"
+            android:textSize="15sp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:textColor="@android:color/white"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=17:C1:3E:E2:4F:B9:0D:CB:38:FA:6D:CA:62:B2:D0:36:08:B1:34:E3%3Bcom.rushbox.android.theboxapp
+
+    You can also add your credentials to an existing key, using this line:
+    17:C1:3E:E2:4F:B9:0D:CB:38:FA:6D:CA:62:B2:D0:36:08:B1:34:E3;com.rushbox.android.theboxapp
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        AIzaSyAA1FUlEw7g4MJ3f-ZiZ_EKz7sI2HiAAWc
+    </string>
+</resources>
